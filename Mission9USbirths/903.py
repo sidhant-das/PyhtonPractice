@@ -23,5 +23,6 @@ def month_birth(cdc_list):
             births_per_months[month]=births_per_months[month]+birth
         else:
             births_per_months[month]=birth
-    print(births_per_months)
-month_birth(cdc_list)
+    return(births_per_months)
+cdc_month=month_birth(cdc_list)
+print(cdc_month)

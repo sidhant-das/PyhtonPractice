@@ -23,5 +23,6 @@ def birth_per_week(cdc_list):
             birth_day[day] = birth_day[day] + birth
         else:
             birth_day[day]=birth
-    print(birth_day)
-birth_per_week(cdc_list)
+    return(birth_day)
+cdc_day=birth_per_week(cdc_list)
+print(cdc_day)
