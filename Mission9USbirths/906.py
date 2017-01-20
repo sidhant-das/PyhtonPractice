@@ -51,5 +51,4 @@ def minValue(data1):
     minValDict={result[0]:minVal}
     return minValDict
 print('max',maxValue(cdc_year_births))
-print(cdc_year_births)
 print('min',minValue(cdc_year_births))
